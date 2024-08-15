@@ -8,13 +8,18 @@ border: none;
 background-color: var(--light-dark);
 color: var(--white);
 font-size: 1rem;
+font-family: var(--font-body);
 }
 
+main .back-btn:hover{
+cursor: pointer;
+}
 main .ghana{
 text-align: center;
 color: var(--white);
 padding-bottom: 2rem;
 padding-top: 1.2rem;
+font-family: var(--heading-font);
 }
 
 main section{
@@ -38,10 +43,12 @@ border-bottom-right-radius: 15px;
 
 .offering-details .mobile{
 color: var(--cyan);
+font-family: var(--heading-font);
 }
 
 .offering-details .dy{
 color: var(--deep-yellow);
+font-family: var(--font-body);
 }
 .offering-details h3, .offering-details h2{
 text-align: center;
@@ -65,23 +72,28 @@ border-radius: 5px;
 color: var(--black);
 font-size: 1rem;
 font-weight: bold;
+font-family: var(--font-body);
 }
 
 .offering-details .white{
 color:var(--white);
+font-family: var(--font-body);
 }
 .offering-details .red{
 color: var(--red);
 }
 .offering-details .db{
 color: var(--deep-blue);
+font-family: var(--font-body);
 }
 .offering-details .bank{
 padding-top: 1rem;
+font-family: var(--heading-font);
 }
 
 main .last-w{
 text-align: center;
 padding-top: 5rem;
 color: var(--cyan);
+font-family: var(--heading-font);
 }

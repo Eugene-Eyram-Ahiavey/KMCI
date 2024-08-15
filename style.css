@@ -10,15 +10,20 @@ min-height:100vh;
 
 main .church{
 padding-top: 4rem;
+padding-left: 0.3rem;
+padding-right: 0.3rem;
+font-family: var(--heading-font);
 }
 
 
-main .church h1, .church h3{
+main .church h3{
 text-align: center;
+font-family: var(--heading-font);
 }
 
 .church .chname{
 color: var(--white);
+text-align: center;
 }
 .church h3{
 color: var(--cyan);
@@ -193,11 +198,12 @@ align-items: center;
 margin-left: 0.75rem;
 color: var(--white);
 font-weight: 700;
+font-family:var(--font-body);
 }
 
 .others .image{
-width: 60px;
-height: 60px;
+width: 60.7px;
+height: 60.7px;
 margin-left: 0.5rem;
 }
 .others .image img{
@@ -208,10 +214,14 @@ height:100%;
 .others .h3{
 margin-left: 1rem;
 color: var(--white);
+font-size: 20px;
+font-family: var(--font-body);
 }
 
 #offering-container .bless{
 text-align: center;
 color: var(--cyan);
 padding-top: 4rem;
+font-size: 20px;
+font-family: var(--heading-font);
 }

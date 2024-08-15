@@ -10,12 +10,11 @@
 
     <body>
      <main>
-       <button class="back-btn">
+       <button class="back-btn" id="goBack">
         < &nbsp;Back
        </button>
 
         <h2 class="ghana">Ghana</h2>
-
         <section>
             <div class="offering-details">
                 <h3 class="mobile">Mobile Money</h3>
@@ -25,7 +24,7 @@
                 <h4 class="dy">Merchant ID</h4>
                 <h4 class="m-id white">830814</h4>
 
-                <button class="momo">Give With Mobile Money/Card</button>
+                <button class="momo" id="give">Give With Mobile Money/Card</button>
 
                 <div class="bank">
                     <h2 class="white">Bank Account</h2>
@@ -38,5 +37,14 @@
         </section>
         <h3 class="last-w">God Bless You As You Give!</h3>
     </main>
+
+
+    <script>
+       const back = document.getElementById("goBack");
+        back.addEventListener("click", ()=>{
+            window.location.href = "../index.html";
+        });
+    </script>
+
     </body>
 </html>
