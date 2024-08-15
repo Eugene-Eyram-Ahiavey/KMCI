@@ -24,6 +24,9 @@ color: var(--white);
 color: var(--cyan);
 }
 
+#offering-container{
+padding:0.3rem;
+}
 main #offering-container .main{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
