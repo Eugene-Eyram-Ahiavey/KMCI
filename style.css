@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+min-height:100vh;
+}
+
+main .church{
+padding-top: 4rem;
+}
+
+
+main .church h1, .church h3{
+text-align: center;
+}
+
+.church .chname{
+color: var(--white);
+}
+.church h3{
+color: var(--cyan);
+}
+
+main #offering-container .main{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:repeat(4, auto);
+/* grid-template-areas:
+"ghana kenya"
+"uk usa"
+"switz ustra"
+"others"
+;
+*/
+padding-top: 3rem;
+row-gap: 1rem;
+}
+
+.main .ghana{
+grid-column: 1/2;
+grid-row: 1/2;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 97%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+
+
+}
+.ghana .image{
+width: 40px;
+height: 40px;
+}
+.ghana .image img{
+width: 100%;
+height: 100%;
+}
+
+.main .kenya{
+grid-column: 2/3;
+grid-row:1/2;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 97%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+
+}
+.kenya .image{
+width: 40px;
+height: 40px;
+}
+.kenya .image img{
+width: 100%;
+height: 100%;
+    }
+
+.main .uk{
+/* grid-area: uk; */
+grid-column: 1/2;
+grid-row: 2/3;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 98%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+}
+.uk .image{
+width: 40px;
+height: 40px;
+}
+.uk .image img{
+width: 100%;
+height: 100%;
+}
+
+.main .usa{
+/* grid-area: usa; */
+grid-column: 2/3;
+grid-row: 2/3;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 98%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+}
+.usa .image{
+width:40px;
+height: 40px;
+}
+.usa .image img{
+width: 100%;
+height: 100%;
+}
+
+.main .switz{
+/* grid-area: switz; */
+grid-column: 1/2;
+grid-row: 3/4;
+padding: 1rem;
+/* border: 2px solid blue; */
+border-radius:20px;
+width: 98%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+background-color: var(--background);
+}
+.switz .image{
+width: 40px;
+height: 40px;
+}
+.switz .image img{
+width: 100%;
+height: 100%;
+}
+
+.main .australia{
+/* grid-area: austra; */
+grid-column:2/3;
+grid-row: 3/4;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 98%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+}
+.australia .image{
+width: 40px;
+height: 40px;
+}
+.australia .image img{
+width: 100%;
+height: 100%;
+}
+
+.main .others{
+/* grid-area: others; */
+grid-column: 1/-1;
+grid-row: 4/5;
+padding: 1rem;
+/* border: 2px solid blue; */
+background-color: var(--background);
+border-radius:20px;
+width: 98%;
+margin: 0 auto;
+display:flex;
+align-items: center;
+}
+
+.main .branch{
+margin-left: 0.75rem;
+color: var(--white);
+font-weight: 700;
+}
+
+.others .image{
+width: 60px;
+height: 60px;
+margin-left: 0.5rem;
+}
+.others .image img{
+width: 100%;
+height:100%;
+}
+
+.others .h3{
+margin-left: 1rem;
+color: var(--white);
+}
+
+#offering-container .bless{
+text-align: center;
+color: var(--cyan);
+padding-top: 4rem;
+}

@@ -1,0 +1,75 @@
+
+main .back-btn{
+padding: 12px 30px;
+margin-top: 1.2rem;
+margin-left: 1rem;
+border-radius: 5px;
+border: none;
+background-color: var(--black);
+color: var(--white);
+font-size: 1rem;
+}
+
+main h1{
+text-align: center;
+color: var(--white);
+padding-top: 2rem;
+padding-bottom: 3rem;
+}
+
+main section{
+width: 95%;
+margin: 0 auto;
+padding-top: 1rem;
+/* border: 2px solid blue; */
+background-color:var(--background);
+border-radius: 15px;
+}
+
+main section .kenya-giving{
+/* border: 2px solid red; */
+padding: 1rem 0;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.kenya-giving .kenya{
+color: var(--white);
+}
+
+.kenya-giving .acc-number{
+padding-top: 0.8rem;
+color: var(--white);
+}
+.kenya-giving .id{
+padding-top: 0.8rem;
+color: var(--red);
+}
+
+.kenya-giving .description, .kenya-giving .phone{
+padding-top:5px;
+color: var(--white);
+}
+
+.kenya-giving .out-kenya{
+padding-top: 1rem;
+color: var(--white);
+}
+.kenya-giving .number{
+padding-top: 1.5rem;
+color: var(--red);
+}
+
+main section .kenya-giving h3, .kenya-giving h4{
+text-align: center;
+}
+
+    
+main section .kenya-giving h2{
+text-align: center;
+}
+
+main .last-w{
+text-align: center;
+padding-top: 5rem;
+color: var(--cyan);
+}

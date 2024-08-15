@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+main{
+background-image: url(../images/Prophet-transformed.jpeg);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+background-color:var(--black);
+background-blend-mode: overlay;
+}
+
+:root{
+--background: #2D2E3E;
+--light-blue: #A8DCFA;
+--yellow: #FAF089;
+--red:#E53E3E;
+--cyan:#2AD5DC;
+--deep-yellow:#FCB900;
+--deep-blue:#90CDF4;
+--black:#0b0b0b;
+--white:#FFFFFFEB;
+--light-dark:#8080804F;
+}

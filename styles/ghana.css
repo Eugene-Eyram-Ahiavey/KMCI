@@ -1,0 +1,87 @@
+
+main .back-btn{
+padding: 12px 30px;
+margin-top: 1.2rem;
+margin-left: 1rem;
+border-radius: 5px;
+border: none;
+background-color: var(--light-dark);
+color: var(--white);
+font-size: 1rem;
+}
+
+main .ghana{
+text-align: center;
+color: var(--white);
+padding-bottom: 2rem;
+padding-top: 1.2rem;
+}
+
+main section{
+width: 95%;
+margin: 0 auto;
+/* border: 2px solid blue; */
+padding-top: 3rem;
+background-color:var(--background);
+border-radius: 15px;
+}
+
+main section .offering-details{
+margin: 0 auto;
+/* border: 2px solid red; */
+/* width: 50%; */
+padding: 1rem 0;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+
+.offering-details .mobile{
+color: var(--cyan);
+}
+
+.offering-details .dy{
+color: var(--deep-yellow);
+}
+.offering-details h3, .offering-details h2{
+text-align: center;
+padding-bottom:0.5rem;
+}
+
+.offering-details h4, .offering-details h1{
+text-align: center;
+}
+.offering-details .m-id{
+/* border: 2px solid blue; */
+padding-bottom: 1.5rem;
+}
+.offering-details .momo{
+display: block;
+margin: 0 auto;
+padding: 0.8rem 2.5rem;
+background-color: var(--yellow);
+border: none;
+border-radius: 5px;
+color: var(--black);
+font-size: 1rem;
+font-weight: bold;
+}
+
+.offering-details .white{
+color:var(--white);
+}
+.offering-details .red{
+color: var(--red);
+}
+.offering-details .db{
+color: var(--deep-blue);
+}
+.offering-details .bank{
+padding-top: 1rem;
+}
+
+main .last-w{
+text-align: center;
+padding-top: 5rem;
+color: var(--cyan);
+}
